@@ -151,7 +151,6 @@ function active_menu() {
     if (session_token && updatePWD == "no" && pathFile != "mifi-system-settings-webui-password.html") {
         alert($.i18n.prop("home.Pleasechangepassword"));
         //location.href = 'mifi-system-settings-webui-password.html';
-        return true;
     }
     switch (pathFile) {
         case "index.html":
